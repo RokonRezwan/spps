@@ -1,6 +1,6 @@
 @charset "utf-8";
 body{
-	background-color:#f6f5f5;
+	background-color:#000000;
 	margin:0px;
 	padding:0px;
 }
@@ -121,7 +121,7 @@ button:active{
 .about-container{
 	width:80%;
 	height:330px;
-	background:#ffffff;
+	background:#aa0202;
 	border-radius:20px;
 	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
 	display: flex;
@@ -137,14 +137,14 @@ button:active{
 	width:500px;
 } 
 .about-text p:nth-child(1){
-	color:#403e3e;
+	color:#c7bebe;
 	font-family: myriad pro;
 	font-weight:bold;
 	font-size:23px;
 	line-height:0px;
 }
 .about-text p:nth-child(2){
-	color:#3e3d3d;
+	color:#030202;
 	font-size:13px;
 	font-family: myriad pro;
 	font-weight:bold;
@@ -288,6 +288,11 @@ font-size: ;}
 	outline:none;
 	font-size:14px;
 	font-weight:bold;
+}
+
+
+footer {
+	background-color: #b0dcdd;
 }
 
 footer p{
